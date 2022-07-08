@@ -19,7 +19,11 @@ Doing the same thing with a 4x4 matrix, would first reduce every matrix to 3x3, 
 The basic idea is: 'Hold' the term $A_{11}$, and multiply it by the determinant of the reduced matrix M, where M is the resulting matrix of 'deleting' the first row and column of the original matrix, A.
 
 Then, you do it for all the terms on the first row, but alternate the signs. In the end you should have:
-$det(A) = A_{11}det(M^{11}) - A_{22}det(M^{22}) + ... + A_{nn}det(M^{nn})$
+$det(A) = A_{11}det(M^{11}) - A_{12}det(M^{12}) + ... + A_{1n}det(M^{1n})$
+
+Where $M^{1n}$ is the reduced matrix, without the row 1, and without the column $n$. 
+
+You could do it with other rows, not only the first one, but then you would need to change the signs accordingly, which is a little bit harder. So as quick introduction, stick to $M^{1n}$.
 
 
 ### Some additional stuff to change on the functions file
