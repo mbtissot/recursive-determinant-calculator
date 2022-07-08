@@ -12,7 +12,7 @@ To better illustrate how to program works, we are going to compute the determina
 
 
 
-![Example of 3x3 determinant calculation](/3by3-determinant.png "MarineGEO logo")
+![Example of 3x3 determinant calculation](~/Desktop/Development/recusrive-determinant/3by3-determinant.png "3x3 Determinant")
 
 
 $$ det\left(\begin{bmatrix}
