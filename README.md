@@ -1,6 +1,6 @@
 # Recursive Determinant Calculator
 
-This code finds the determinant of square matrices by reducing the size of the matrix from $N\times N$ to $(N-1)\times (N-1)$, until the final matrix is $2\times 2$. (Using recursion is inefficient and slow for actually computing determinants, use some online tool instead. I wrote it just for the fun of doing it recursively)
+This code finds the determinant of square matrices by reducing the size of the matrix from NxN to (N-1)x(N-1), until the final matrix is 2x2. (Using recursion is inefficient and slow for actually computing determinants, use some online tool instead. I wrote it just for the fun of doing it recursively)
 
 My favorite algorithm for finding the determinant of matrices, is using [Laplace Expansion](https://en.wikipedia.org/wiki/Laplace_expansion). For matrices bigger than $3\times 3$, it is very boring to do, but usually doesn't need as much brainpower as other methods.
 
