@@ -28,12 +28,10 @@ def find_determinant(matrix, first_row):
     det = 0
     firstrow = matrix[0]
     if matrix.shape[0]==2:
-        #contlist.append(2)
         return (matrix[0][0]*matrix[1][1]) - (matrix[0][1]*matrix[1][0]) #2x2 determinant
     else:
         for i in range(matrix.shape[0]):
             #print(new_matrix(matrix, i)) #This prints all the sub-matrices. Uncomment if u want
-            #contlist.append(matrix.shape[0])
             valor = ((-1)**(i))*firstrow[i]*find_determinant(new_matrix(matrix, i), firstrow)
             det = det + valor
     return det
