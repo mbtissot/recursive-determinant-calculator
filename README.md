@@ -10,6 +10,11 @@ As its my favorite method, i tried to code a program that find the determinant b
 
 To better illustrate how to program works, we are going to compute the determinant of a general $3\times 3$ matrix below:
 
+
+
+![Example of 3x3 determinant calculation](/3by3-determinant.png "MarineGEO logo")
+
+
 $$ det\left(\begin{bmatrix}
         a&b&c\\d&e&f\\g&h&i
     \end{bmatrix}\right) = a   \begin{bmatrix}e & f \\h & i \end{bmatrix} - b   \begin{bmatrix}d & f \\g & i \end{bmatrix} + c  \begin{bmatrix}d & e \\g & h \end{bmatrix} \\
