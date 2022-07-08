@@ -39,8 +39,12 @@ Also, if you, for some reason wants to use this code to compute your determinant
 Since it is not very useful outside of having fun with it, i don't think i'll be developing some sort of GUI, or easier-to-use way to run it, so for the time, we'll have to stick with changing the source code and running it with your favorite IDE/Editor/Terminal.
 
 To run it from terminal, try:
+
 `
 $ python determinant_calculator.py
 `
+
 Or
+
+
 `$ python3 determinant_calculator.py`
