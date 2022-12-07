@@ -8,8 +8,8 @@ With the block of code below, you will create a n x n matrix
 with integer entries from -k to k.
 
 '''
-n = 3
-k = 50
+n = 7
+k = 7
 matrix_to_calculate = np.zeros((n, n))
 for i in range(n):
     for j in range(n):

@@ -14,9 +14,10 @@ def determinant(matrix):
         firstrow = matrix[0]
         return find_determinant(matrix, firstrow)
     else:
-        print('Matriz não é quadrada.')
+        print('Matrix is not square (NxN)')
 
-        
+
+
 '''
 
 Calculates the determinant recursively. It can only calculate the determinant

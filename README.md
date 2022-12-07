@@ -8,13 +8,13 @@ As it's my favorite method, i tried to code a program that finds the determinant
 
 ## Example of Laplace Expansion
 
-To better illustrate how to program works, we are going to compute the determinant of a general $3\times 3$ matrix below:
+To better illustrate how tHE program works, we are going to compute the determinant of a general $3\times 3$ matrix below:
 
 
 
 ![Example of 3x3 determinant calculation](3by3-determinant.png "3x3 Determinant")
 
-Doing the same thing with a 4x4 matrix, would first reduce every matrix to 3x3, and then to calculate its determinant, reduce it further to 2x2.
+Doing the same thing with a 4x4 matrix, youwould first reduce every matrix to 3x3, and then to calculate its determinant, reduce it further to 2x2.
 
 The basic idea is: 'Hold' the term $A_{11}$, and multiply it by the determinant of the reduced matrix M, where M is the resulting matrix of 'deleting' the first row and column of the original matrix, A.
 
@@ -23,7 +23,7 @@ $det(A) = A_{11}det(M^{11}) - A_{12}det(M^{12}) + ... + A_{1n}det(M^{1n})$
 
 Where $M^{1n}$ is the reduced matrix, without the row 1, and without the column $n$. 
 
-You could do it with other rows, not only the first one, but then you would need to change the signs accordingly, which is a little bit harder. So as quick introduction, stick to $M^{1n}$.
+You could do it with other rows, not only the first one, but then you would need to change the signs accordingly, which is a little bit harder. So as a quick introduction, stick to $M^{1n}$.
 
 
 ### Some additional stuff to change on the functions file
@@ -32,7 +32,7 @@ Running the code as is, will compute the determinant of some random matrix, with
 
 If you want to see the sub-matrices, open the 'determinant_functions.py' file, and uncomment the `print` statement on line 35.
 
-Also, if you, for some reason wants to use this code to compute your determinants, you should change the matrix first, by uncommenting the 'matrix_to_calculate' and changing it as you wish.
+Also, if you, for some reason, wants to use this code to compute your determinants, you should change the matrix first, by uncommenting the 'matrix_to_calculate' and changing it as you wish.
 
 ## Running the code
 
