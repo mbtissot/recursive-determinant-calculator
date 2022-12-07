@@ -8,7 +8,7 @@ As it's my favorite method, i tried to code a program that finds the determinant
 
 ## Example of Laplace Expansion
 
-To better illustrate how tHE program works, we are going to compute the determinant of a general $3\times 3$ matrix below:
+To better illustrate how the program works, we are going to compute the determinant of a general $3\times 3$ matrix below:
 
 
 
